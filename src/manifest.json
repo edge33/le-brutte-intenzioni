@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Le brutte intenzioni...",
+  "description": "Il lorem ipsum dello sviluppatore web fermo al 2020",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.%contentHash%.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  "action": {
+    "default_popup": "index.html"
+  }
+}

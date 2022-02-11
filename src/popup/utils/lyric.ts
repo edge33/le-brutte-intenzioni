@@ -1,0 +1,1 @@
+export default "Le brutte intenzioni, la maleducazione La tua brutta figura di ieri sera E l'ingratitudine, la tua arroganza Fai cio che vuoi mettendo i piedi in testa Certo disordine è una forma d’arte Ma tu sai solo coltivare invidia Ringrazia il Cielo sei su questo palco Rispetta chi ti ci ha portato dentro E questo sono io, lo faccio volentieri";

@@ -1,0 +1,47 @@
+{
+  "name": "brutte-intenzioni",
+  "version": "1.0.0",
+  "description": "Il lorem ipsum dello sviluppatore web fermo al 2020",
+  "main": "src/poput/index.ts",
+  "scripts": {
+    "dev:server": "webpack serve --config webpack.dev.js",
+    "start": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint src"
+  },
+  "author": "Francesco Maida",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@fiverr/afterbuild-webpack-plugin": "^1.0.0",
+    "@types/chrome": "^0.0.177",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.1",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1",
+    "replace-in-file": "^6.3.2",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.5.5",
+    "web-ext-types": "^3.2.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-ext-reloader": "^1.1.9",
+    "webpack-nano": "^1.1.1",
+    "webpack-run-after-build-plugin": "^0.0.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.2"
+  }
+}
