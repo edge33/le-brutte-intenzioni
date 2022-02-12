@@ -2,6 +2,7 @@ import './../style.css';
 import layout from './layout/layout.html';
 import textarea from './components/textarea.html';
 import getPlaceholderText from './utils/getPlaceholderText';
+import * as browser from 'webextension-polyfill';
 
 const run = async () => {
   const tabs = await browser.tabs.query({ active: true, currentWindow: true });
@@ -9,7 +10,6 @@ const run = async () => {
   const connectionPort = chrome.tabs.connect(tabId, { name: 'connection' });
   const root = document.getElementById('root') as HTMLElement;
   root.innerHTML = layout;
-
   const container = document.querySelector('.container') as HTMLElement;
   container.innerHTML = textarea;
 

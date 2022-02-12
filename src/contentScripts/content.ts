@@ -1,3 +1,5 @@
+import * as browser from 'webextension-polyfill';
+
 let focusedElement: HTMLInputElement | HTMLTextAreaElement | undefined;
 document.addEventListener('click', (event) => {
   const element = event.target as HTMLElement;
